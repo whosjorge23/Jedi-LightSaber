@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED30582C242D1FC6000AD1E4 /* fireworks.sks in Resources */ = {isa = PBXBuildFile; fileRef = ED30582B242D1FC6000AD1E4 /* fireworks.sks */; };
+		ED62EACA2422947500A36303 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED62EAC92422947500A36303 /* AppDelegate.swift */; };
+		ED62EACC2422947500A36303 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = ED62EACB2422947500A36303 /* GameScene.sks */; };
+		ED62EAD02422947500A36303 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED62EACF2422947500A36303 /* GameScene.swift */; };
+		ED62EAD22422947500A36303 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED62EAD12422947500A36303 /* GameViewController.swift */; };
+		ED62EAD52422947500A36303 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED62EAD32422947500A36303 /* Main.storyboard */; };
+		ED62EAD72422947700A36303 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED62EAD62422947700A36303 /* Assets.xcassets */; };
+		ED62EADA2422947700A36303 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED62EAD82422947700A36303 /* LaunchScreen.storyboard */; };
+		ED7694C62450981B00A9B586 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7694C52450981B00A9B586 /* MenuScene.swift */; };
+		ED7694C824509AD700A9B586 /* SKNode+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7694C724509AD700A9B586 /* SKNode+Extensions.swift */; };
+		ED7694CA24509B3C00A9B586 /* SpriteKitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7694C924509B3C00A9B586 /* SpriteKitButton.swift */; };
+		EDF91DD124252F8E00A0D7FF /* drone.wav in Resources */ = {isa = PBXBuildFile; fileRef = EDF91DD024252F8E00A0D7FF /* drone.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED30582B242D1FC6000AD1E4 /* fireworks.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = fireworks.sks; sourceTree = "<group>"; };
+		ED62EAC62422947500A36303 /* Jedi LightSaber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jedi LightSaber.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED62EAC92422947500A36303 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED62EACB2422947500A36303 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		ED62EACF2422947500A36303 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		ED62EAD12422947500A36303 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		ED62EAD42422947500A36303 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED62EAD62422947700A36303 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED62EAD92422947700A36303 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED62EADB2422947700A36303 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED7694C52450981B00A9B586 /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		ED7694C724509AD700A9B586 /* SKNode+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKNode+Extensions.swift"; sourceTree = "<group>"; };
+		ED7694C924509B3C00A9B586 /* SpriteKitButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpriteKitButton.swift; sourceTree = "<group>"; };
+		EDF91DD024252F8E00A0D7FF /* drone.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = drone.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED62EAC32422947500A36303 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED62EABD2422947500A36303 = {
+			isa = PBXGroup;
+			children = (
+				ED62EAC82422947500A36303 /* Jedi LightSaber */,
+				ED62EAC72422947500A36303 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED62EAC72422947500A36303 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED62EAC62422947500A36303 /* Jedi LightSaber.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED62EAC82422947500A36303 /* Jedi LightSaber */ = {
+			isa = PBXGroup;
+			children = (
+				ED62EAC92422947500A36303 /* AppDelegate.swift */,
+				ED62EACB2422947500A36303 /* GameScene.sks */,
+				ED62EACF2422947500A36303 /* GameScene.swift */,
+				ED7694C52450981B00A9B586 /* MenuScene.swift */,
+				ED30582B242D1FC6000AD1E4 /* fireworks.sks */,
+				EDF91DCF24252F7B00A0D7FF /* Sounds */,
+				ED62EAD12422947500A36303 /* GameViewController.swift */,
+				ED7694C924509B3C00A9B586 /* SpriteKitButton.swift */,
+				ED7694C724509AD700A9B586 /* SKNode+Extensions.swift */,
+				ED62EAD32422947500A36303 /* Main.storyboard */,
+				ED62EAD62422947700A36303 /* Assets.xcassets */,
+				ED62EAD82422947700A36303 /* LaunchScreen.storyboard */,
+				ED62EADB2422947700A36303 /* Info.plist */,
+			);
+			path = "Jedi LightSaber";
+			sourceTree = "<group>";
+		};
+		EDF91DCF24252F7B00A0D7FF /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				EDF91DD024252F8E00A0D7FF /* drone.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED62EAC52422947500A36303 /* Jedi LightSaber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED62EADE2422947700A36303 /* Build configuration list for PBXNativeTarget "Jedi LightSaber" */;
+			buildPhases = (
+				ED62EAC22422947500A36303 /* Sources */,
+				ED62EAC32422947500A36303 /* Frameworks */,
+				ED62EAC42422947500A36303 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jedi LightSaber";
+			productName = "Jedi LightSaber";
+			productReference = ED62EAC62422947500A36303 /* Jedi LightSaber.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED62EABE2422947500A36303 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = Westcostyle;
+				TargetAttributes = {
+					ED62EAC52422947500A36303 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = ED62EAC12422947500A36303 /* Build configuration list for PBXProject "Jedi LightSaber" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED62EABD2422947500A36303;
+			productRefGroup = ED62EAC72422947500A36303 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED62EAC52422947500A36303 /* Jedi LightSaber */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED62EAC42422947500A36303 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED30582C242D1FC6000AD1E4 /* fireworks.sks in Resources */,
+				ED62EAD52422947500A36303 /* Main.storyboard in Resources */,
+				EDF91DD124252F8E00A0D7FF /* drone.wav in Resources */,
+				ED62EACC2422947500A36303 /* GameScene.sks in Resources */,
+				ED62EAD72422947700A36303 /* Assets.xcassets in Resources */,
+				ED62EADA2422947700A36303 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED62EAC22422947500A36303 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED62EAD02422947500A36303 /* GameScene.swift in Sources */,
+				ED7694CA24509B3C00A9B586 /* SpriteKitButton.swift in Sources */,
+				ED7694C62450981B00A9B586 /* MenuScene.swift in Sources */,
+				ED7694C824509AD700A9B586 /* SKNode+Extensions.swift in Sources */,
+				ED62EAD22422947500A36303 /* GameViewController.swift in Sources */,
+				ED62EACA2422947500A36303 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED62EAD32422947500A36303 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED62EAD42422947500A36303 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED62EAD82422947700A36303 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED62EAD92422947700A36303 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED62EADC2422947700A36303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED62EADD2422947700A36303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED62EADF2422947700A36303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8NN7WLHYCN;
+				INFOPLIST_FILE = "Jedi LightSaber/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.westcostyle.Jedi-LightSaber";
+				PRODUCT_NAME = "Jedi LightSaber";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		ED62EAE02422947700A36303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8NN7WLHYCN;
+				INFOPLIST_FILE = "Jedi LightSaber/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.westcostyle.Jedi-LightSaber";
+				PRODUCT_NAME = "Jedi LightSaber";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED62EAC12422947500A36303 /* Build configuration list for PBXProject "Jedi LightSaber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED62EADC2422947700A36303 /* Debug */,
+				ED62EADD2422947700A36303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED62EADE2422947700A36303 /* Build configuration list for PBXNativeTarget "Jedi LightSaber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED62EADF2422947700A36303 /* Debug */,
+				ED62EAE02422947700A36303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED62EABE2422947500A36303 /* Project object */;
+}
